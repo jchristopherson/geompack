@@ -1,0 +1,10 @@
+prefix = @CMAKE_INSTALL_PREFIX@
+libdir = ${prefix}/@CMAKE_INSTALL_FULL_LIBDIR@
+includedir = ${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: @PROJECT_NAME@
+Description: A modernization of the GEOMPACK library for computing Delaunay triangulations.
+Version: @PROJECT_VERSION@
+URL: https://github.com/jchristopherson/geompack
+Libs: -L${libdir} -l@PROJECT_NAME@
+Cflags: -I${includedir}
