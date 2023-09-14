@@ -7,6 +7,11 @@ copyright = "Copyright 2023, Jason Christopherson"
 description = "A modernization of the GEOMPACK library for computing Delaunay triangulations."
 homepage = "https://github.com/jchristopherson/geompack"
 
+[fortran]
+implicit-typing = true
+implicit-external = true
+source-form = "default"
+
 [library]
 source-dir = "src"
 
