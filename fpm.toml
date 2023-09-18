@@ -23,6 +23,9 @@ auto-executables = false
 auto-examples = false
 auto-tests = false
 
+[dev-dependencies]
+fortran_test_helper = { git = "https://github.com/jchristopherson/fortran_test_helper" }
+
 [[test]]
 name = "geompack_test"
 source-dir = "test"
