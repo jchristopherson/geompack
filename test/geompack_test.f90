@@ -5,6 +5,6 @@ program main
     logical :: check
 
     ! Tests
-    check = test_alpha_measure()
+    check = test_r8tris2()
     if (.not. check) stop 1
 end program
