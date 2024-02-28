@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.24)
 project(
     geompack
     LANGUAGES Fortran
-    VERSION 1.0.0
+    VERSION 1.0.2
 )
 
 # Get helper macros and functions
@@ -21,9 +21,6 @@ add_fortran_library(
     ${PROJECT_VERSION_MAJOR}
     ${GEOMPACK_SOURCES}
 )
-
-# Installation
-add_subdirectory(install)
 
 # Testing
 option(BUILD_TESTING "Build tests")
